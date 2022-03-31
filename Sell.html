@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Car </title>
+    <link rel="stylesheet" href="style_sell.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="pexels-joshua-köller-757185.jpg" alt="">
+            <div id="text" style="color: cadetblue;">Good Car</div>
+
+        </div>
+        <!-- mid box for Navgbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a  id="home" href="Home.html">Home</a></li>
+                <li><a  id="register" href="Registration.html">Register</a></li>
+                <li><a  id="SMC" href="Sell.html">Sell My Car</a></li>
+                <li><a  id="search " href="Search.html">Search</a></li>
+                <li><a  id="About" href="About.html">About Us</a></li>
+                
+               
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <!-- <div class="right">
+            <button class="btn">call us </button><button class="btn"> Email us</button>
+
+        </div> -->
+    </header>
+    <div class="container"><h1>Add Your Car Information</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                 <input type="text" placeholder="Write The Car Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Car Model">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Car Exterior color">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Year Range">
+            </div>
+            <div class="formgroup">
+                <textarea name="Additional Information" type="text" rows="10" cols="100"  id="AddInformation"
+                   placeholder="
+ e.g. Interior Color, Fuel type, Engine capacity,is there an advantage in the car? Is there a defect in the car? " ></textarea>
+                
+            </div>
+            <tr>
+                <td width="122" height="42">Photo 3 m</td>
+                <td width="511"><input type="file" name="photo" id="photo"></textarea> 
+               * 
+              </tr>
+            <button class="btn">Submit</button>
+            <button class="btn1" type="reset">Reset</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
